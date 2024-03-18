@@ -33,3 +33,7 @@ func Hello(name string) string {
 	message := fmt.Sprintf("Hi, %v. Welcome!", name)
 	return message
 }
+
+func Greetings(name string) {
+	log.Printf("Hello %v, this is the updated version", name)
+}
